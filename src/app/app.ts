@@ -45,8 +45,10 @@ export class App {
 
   email = 'kinleyphuntsho2005@email.com';
   showProjects() {
-    alert('Projects section coming soon!');
-  };
+    document.getElementById('projects')?.scrollIntoView({
+      behavior: 'smooth'
+  });
+}
 
   showContact() {
     alert('You can contact me at ' + this.email);

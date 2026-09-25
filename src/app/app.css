@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 * {
   box-sizing: border-box;
 }
@@ -156,5 +159,18 @@ button {
 }
 
 .project-card p {
+  line-height: 1.6;
+}
+
+.contact {
+  padding: 80px 8%;
+}
+
+.contact h2 {
+  font-size: 40px;
+}
+
+.contact p {
+  font-size: 18px;
   line-height: 1.6;
 }
