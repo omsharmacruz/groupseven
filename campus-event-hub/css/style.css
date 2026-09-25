@@ -1,0 +1,52 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { font-family: Arial, sans-serif; background: #f7f8fc; color: #171923; }
+.navbar {
+height: 72px; max-width: 1200px; margin: auto;
+display: flex; align-items: center; justify-content: space-between;
+padding: 0 30px;
+}
+.logo { font-size: 22px; font-weight: 800; }
+.nav-links { display: flex; gap: 30px; }
+.nav-links a { color: #555; text-decoration: none; font-weight: 600; }
+.hero {
+min-height: 520px; display: flex; align-items: center;
+justify-content: center; padding: 70px 30px; background: #fff;
+}
+.hero-content { max-width: 800px; text-align: center; }
+.tag, .section-heading span, .about span {
+color: #5367df; font-weight: bold; text-transform: uppercase;
+font-size: 13px; letter-spacing: 1.5px;
+}
+.hero h1 { font-size: 60px; line-height: 1.05; margin: 20px 0; }
+.hero p { max-width: 650px; margin: 0 auto 35px; color: #666; line-height: 1.7; }
+.primary-button {
+display: inline-block; background: #5367df; color: white;
+padding: 14px 25px; border-radius: 8px; text-decoration: none; font-weight: bold;
+}
+.events-section { max-width: 1200px; margin: auto; padding: 90px 30px; }
+.section-heading { text-align: center; max-width: 600px; margin: auto; }
+.section-heading h2 { font-size: 38px; margin: 12px 0; }
+.section-heading p { color: #777; line-height: 1.6; }
+.filters {
+display: flex; justify-content: center; flex-wrap: wrap;
+gap: 10px; margin: 40px 0;
+}
+.filter {
+border: 1px solid #ddd; background: white; padding: 10px 18px;
+border-radius: 30px; cursor: pointer;
+}
+.filter.active { background: #5367df; color: white; border-color: #5367df; }
+.event-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.event-card {
+background: white; border: 1px solid #ececec;
+border-radius: 14px; padding: 25px;
+}
+.category {
+display: inline-block; color: #5367df; background: #eef0ff;
+padding: 6px 10px; border-radius: 5px; font-size: 12px; font-weight: bold;
+}
+.event-card h3 { margin: 20px 0 10px; }
+.event-card p { color: #777; line-height: 1.6; min-height: 52px; }
+.event-date { margin-top: 25px; padding-top: 15px; border-top: 1px solid #eee; }
+footer { background: #101117; color: #888; text-align: center; padding: 25px; }
